@@ -6,7 +6,7 @@ class Person {
 	}
 
 	greet() {
-		console.log(`Hello, my name is ${name}, I am ${age} years old.`)
+		console.log(`Hello, my name is ${name} and I am ${age} years old.`)
 	}
 }
 
@@ -17,7 +17,7 @@ class Employee extends Person(name, age) {
 	}
 
 	jobGreet() {
-		console.log(`Hello, my name is ${name}, I am ${age} years old, and my job title is ${jobTitle}`)
+		console.log(`Hello, my name is ${name}, I am ${age} years old, and my job title is ${jobTitle}.`)
 	}
 }
 
